@@ -167,10 +167,6 @@ PHONE           P=1.000 R=1.000 F1=1.000
     * Recall    = 0.734
     * F1        = 0.846
 
-**CPU Latency:**
-* **p50:** 5.93 ms
-* **p95:** 14.66 ms
-
 ### Stress Set – Metrics
 
 **Per-entity:**
@@ -191,9 +187,10 @@ PHONE           P=0.939 R=0.939 F1=0.939
     * Recall    = 0.899
     * F1        = 0.939
 
-**CPU Latency:**
-* **p50:** 6.66 ms
-* **p95:** 10.44 ms
+**Latency over 100 runs (batch_size=1):**
+  * p50: 6.61 ms
+  * p95: 8.36 ms
+
 
 ---
 
